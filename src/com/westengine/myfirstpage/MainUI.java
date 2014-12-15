@@ -61,6 +61,7 @@ public class MainUI extends Activity implements OnClickListener {
 			popupWindow.setHeight(180);
 			//popupWindow.setBackgroundDrawable(background);
 			popupWindow.setContentView(convertView);
+			
 			popupWindow.setOutsideTouchable(true);
 			popupWindow.setFocusable(true);
 			popupWindow.setAnimationStyle(R.style.popWindowAnim);
@@ -95,7 +96,7 @@ public class MainUI extends Activity implements OnClickListener {
 			init();
 			break;
 		case R.id.tv_share:
-			tv_share.setImageResource(R.drawable.share_s_btn);
+			//tv_share.setImageResource(R.drawable.share_s_btn);
 			break;
 		case R.id.tv_delete:
 			break;
