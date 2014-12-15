@@ -54,7 +54,7 @@ public class StartUI extends Activity {
 		} else {
 			// 已经打开过, 跳转到主界面
 			System.out.println("跳转到主界面");
-			startActivity(new Intent(StartUI.this, MainUI.class));
+			startActivity(new Intent(StartUI.this, CenterUIActivity.class));
 		}
 		finish();
 	}

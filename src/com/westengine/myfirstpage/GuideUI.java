@@ -180,10 +180,10 @@ public class GuideUI extends Activity implements OnPageChangeListener, OnClickLi
 	@Override
 	public void onClick(View v) {
 		// 存储一个数据到本地, 标识已经打开过程序
-		CacheUtils.putBoolean(this, WelcomUI.IS_FIRST_OPEN, false);
+		CacheUtils.putBoolean(this, StartUI.IS_FIRST_OPEN, false);
 		
 		// 打开主页面
-		startActivity(new Intent(this, MainUI.class));
+		startActivity(new Intent(this, CenterUIActivity.class));
 		
 		finish();
 	}
